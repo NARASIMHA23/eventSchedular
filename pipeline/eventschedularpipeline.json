@@ -20,8 +20,6 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSetting",
 							"recursive": true,
-							"wildcardFolderPath": "mydatareadcontainer/input*",
-							"wildcardFileName": "mydatareadcontainer/input/greetingData.xlsx",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
