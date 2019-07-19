@@ -19,7 +19,10 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSetting",
-							"recursive": true
+							"recursive": true,
+							"wildcardFolderPath": "mydatareadcontainer/input*",
+							"wildcardFileName": "mydatareadcontainer/input*",
+							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
 							"type": "DelimitedTextReadSetting"
