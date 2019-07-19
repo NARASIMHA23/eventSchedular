@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "greeting.txt",
+				"fileName": "greetingData.xlsx",
 				"container": "mydatareadcontainer"
 			},
 			"columnDelimiter": ",",
